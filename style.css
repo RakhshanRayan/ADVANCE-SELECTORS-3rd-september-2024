@@ -28,3 +28,10 @@ ul li:nth-child(3) {
 ul li::before {
   content: "🛰️🚀 ";
 }
+a::after {
+  content: "🥷";
+}
+p::first-letter {
+  font-size: 200%;
+  color: rgb(65, 122, 65);
+}
