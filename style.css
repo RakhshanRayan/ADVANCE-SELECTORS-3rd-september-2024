@@ -1,0 +1,30 @@
+body {
+  font-family: Arial;
+  background-color: rgb(232, 144, 144);
+  color: black;
+}
+h1 {
+  color: rgb(108, 108, 196);
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}
+
+ul > li {
+  font-weight: bold;
+}
+ul li:hover {
+  color: blueviolet;
+}
+ul li:nth-child(3) {
+  background-color: rgb(53, 52, 52);
+}
+ul li::before {
+  content: "🛰️🚀 ";
+}
